@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -f Makefile
+	rm -f config.status
+	rm -f ebin/tsung.app
+	rm -f ebin/tsung_controller.app
+	rm -f ebin/tsung_recorder.app
+	rm -f examples/*.xml
+	rm -f src/tsung/tsung.app.src
+	rm -f src/tsung_controller/tsung_controller.app.src
+
+override_dh_gencontrol:
+	erlang-depends
+	dh_gencontrol
+
+override_dh_auto_test:

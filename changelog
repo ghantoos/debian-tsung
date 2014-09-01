@@ -1,0 +1,30 @@
+tsung (1.4.2-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Adjust properly versioned Dependency of erlang
+    with erlang-depends. (Closes: #695284)
+    + Thanks to Pkg Perl and Sebastian Ramacher
+      for their contributions.
+    + d/control: Use ${erlang:Depends},
+      ${erlang-abi:Depends} instead erlang-nox.
+      + Wrap and sort B-D and Depends.
+      + Bump erlang-dev version to 1:13.b.1-dfsg-3
+        to support ${erlang:Depends} variable substitution.
+    + d/rules: Add override_dh_gencontrol to call
+      erlang-depends.  
+
+ -- Julián Moreno Patiño <julian@debian.org>  Sun, 30 Dec 2012 14:55:54 -0500
+
+tsung (1.4.2-1) unstable; urgency=low
+
+  * New upstream version. (Closes: 653211)
+  * debian/patches:
+    - 01_spelling_corrections.diff: refreshed patch.
+
+ -- Ignace Mouzannar <mouzannar@gmail.com>  Sun, 08 Jan 2012 10:32:48 +0400
+
+tsung (1.4.1-1) unstable; urgency=low
+
+  * Initial release. (Closes: #317568)
+
+ -- Ignace Mouzannar <mouzannar@gmail.com>  Tue, 20 Sep 2011 05:21:15 +0200

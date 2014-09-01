@@ -1,0 +1,43 @@
+Source: tsung
+Section: net
+Priority: optional
+Maintainer: Ignace Mouzannar <mouzannar@gmail.com>
+Build-Depends: autotools-dev,
+ debhelper (>= 7.0.50~),
+ docbook-utils,
+ erlang-dev (>= 1:13.b.1-dfsg-3),
+ erlang-nox,
+ erlang-src,
+ python,
+ python-support
+Homepage: http://tsung.erlang-projects.org/
+Standards-Version: 3.9.2
+
+Package: tsung
+Architecture: any
+Depends: gnuplot,
+ libtemplate-perl,
+ python-matplotlib,
+ ${erlang-abi:Depends},
+ ${erlang:Depends},
+ ${misc:Depends},
+ ${python:Depends}
+Recommends: openssh-client
+Description: distributed multi-protocol load testing tool
+ Tsung is a distributed load testing tool. It can be used to stress
+ HTTP, WebDAV, SOAP, PostgreSQL, MySQL, LDAP and Jabber/XMPP servers.
+ .
+ The purpose of Tsung is to simulate users in order to test the
+ scalability and performance of IP based client/server applications.
+ You can use it to do load and stress testing of your servers. Many
+ protocols have been implemented and tested, and it can be easily
+ extended. WebDAV, LDAP and MySQL support have been added recently
+ (experimental).
+ .
+ For HTTP, it support 1.0 and 1.1 version, has a proxy mode to
+ record sessions, support GET and POST method, Cookies and Basic
+ WWW-authentication. It also has support for SSL.
+ .
+ It can be distributed on several client machines and is able to
+ simulate hundreds of thousands of virtual users concurrently (or even
+ millions if you have enough hardware ...).
