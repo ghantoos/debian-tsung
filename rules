@@ -2,7 +2,7 @@
 # -*- makefile -*-
 
 %:
-	dh $@
+	dh $@ --with python2
 
 override_dh_auto_clean:
 	dh_auto_clean
@@ -14,9 +14,16 @@ override_dh_auto_clean:
 	rm -f examples/*.xml
 	rm -f src/tsung/tsung.app.src
 	rm -f src/tsung_controller/tsung_controller.app.src
+	rm -f src/tsung/tsung.app
+	rm -f src/tsung_controller/tsung_controller.app
+	rm -f src/tsung_recorder/tsung_recorder.app
 
 override_dh_gencontrol:
 	erlang-depends
 	dh_gencontrol
 
 override_dh_auto_test:
+
+override_dh_auto_install:
+	dh_auto_install
+	find $(CURDIR)/debian/tsung/usr/lib/erlang/lib/ -type d -empty -delete

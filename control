@@ -8,10 +8,10 @@ Build-Depends: autotools-dev,
  erlang-dev (>= 1:13.b.1-dfsg-3),
  erlang-nox,
  erlang-src,
- python,
- python-support
+ python (>= 2.6.6-3~),
+ dh-python
 Homepage: http://tsung.erlang-projects.org/
-Standards-Version: 3.9.2
+Standards-Version: 3.9.5
 
 Package: tsung
 Architecture: any

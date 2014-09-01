@@ -1,3 +1,14 @@
+tsung (1.5.1-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #691354, #695284, #728124, #719234)
+  * debian/patches:
+    - Removed 02_fix_tsung_recorder_crash_dump.diff, included upstream.
+    - Removed 01_spelling_corrections.diff.
+  * Moved from python-support to dh_python2.
+  * Bump Standards-Version to 3.9.5. No changes required.
+
+ -- Ignace Mouzannar <mouzannar@gmail.com>  Mon, 01 Sep 2014 12:17:32 -0400
+
 tsung (1.4.2-1.1) unstable; urgency=low
 
   * Non-maintainer upload.
