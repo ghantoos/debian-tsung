@@ -17,12 +17,17 @@ override_dh_auto_clean:
 	rm -f src/tsung/tsung.app
 	rm -f src/tsung_controller/tsung_controller.app
 	rm -f src/tsung_recorder/tsung_recorder.app
+	cd $(CURDIR)/docs/ && make clean
 
 override_dh_gencontrol:
 	erlang-depends
 	dh_gencontrol
 
 override_dh_auto_test:
+
+override_dh_auto_build:
+	dh_auto_build
+	cd $(CURDIR)/docs/ && make html
 
 override_dh_auto_install:
 	dh_auto_install

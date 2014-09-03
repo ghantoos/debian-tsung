@@ -1,0 +1,10 @@
+Document: tsung-doc
+Title: Tsung package Documentation
+Author: Nicolas Niclausse
+Abstract: This documentation gives a wide overview of the Tsung load testing
+ tool. It should contain everything someone needs to know about Tsung.
+Section: Network/Monitoring
+
+Format: HTML
+Index: /usr/share/doc/tsung/html/index.html
+Files: /usr/share/doc/tsung/html/index.html

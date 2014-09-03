@@ -9,7 +9,8 @@ Build-Depends: autotools-dev,
  erlang-nox,
  erlang-src,
  python (>= 2.6.6-3~),
- dh-python
+ dh-python,
+ python-sphinx
 Homepage: http://tsung.erlang-projects.org/
 Standards-Version: 3.9.5
 
@@ -21,7 +22,9 @@ Depends: gnuplot,
  ${erlang-abi:Depends},
  ${erlang:Depends},
  ${misc:Depends},
- ${python:Depends}
+ ${python:Depends},
+ libjs-jquery,
+ libjs-underscore
 Recommends: openssh-client
 Description: distributed multi-protocol load testing tool
  Tsung is a distributed load testing tool. It can be used to stress

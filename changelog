@@ -1,13 +1,31 @@
 tsung (1.5.1-1) unstable; urgency=low
 
   * New upstream release. (Closes: #691354, #695284, #728124, #719234)
+  * Acknowledge NMU, thanks Julián Moreno Patiño.
   * debian/patches:
     - Removed 02_fix_tsung_recorder_crash_dump.diff, included upstream.
-    - Removed 01_spelling_corrections.diff.
+    - Removed 01_spelling_corrections.diff, included upstream.
+  * debian/rules:
+    - Included build of html documentation.
+  * debian/control:
+    - Added Build-Depends on python-sphinx.
+    - Added dependencies to JavaScript libraries used by html documentation:
+      - libjs-jquery
+      - libjs-underscore
+  * debian/tsung.docs:
+    - Added new html documentation.
+  * debian/tsung.doc-base:
+    - Updated to point to new index.html file.
+  * debian/copyright:
+    - Added mention to src/templates/dygraph-combined.js.
+    - Added mention to src/tsung_percentile.pl.in.
+  * debian/tsung.links:
+    - Added links to JavaScript files used by html documentation.
+  * Removed debian/docs file, duplicate of debian/tsung.docs.
   * Moved from python-support to dh_python2.
   * Bump Standards-Version to 3.9.5. No changes required.
 
- -- Ignace Mouzannar <mouzannar@gmail.com>  Mon, 01 Sep 2014 12:17:32 -0400
+ -- Ignace Mouzannar <mouzannar@gmail.com>  Tue, 02 Sep 2014 18:12:13 -0400
 
 tsung (1.4.2-1.1) unstable; urgency=low
 
