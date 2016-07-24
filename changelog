@@ -1,3 +1,25 @@
+tsung (1.6.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/copyright:
+    - Moved all license text to bottom of the copyright file, as defined in the
+      "recurrent license" section of the Debian copyright format v1.0.
+    - Updated path to dygraph-combined.js.
+    - Removed mention to rrdtool.hrl.
+    - Mentioned all files that were added in this new release.
+  * debian/tsung.links:
+    - Added link to package provided jquery.min.js.
+  * debian/compat:
+    - Bumped compat version from 7 to 9.
+  * debian/control:
+    - Bumped Standards-Version to 3.9.8.
+    - Updated debhelper dependency version to follow new compat version.
+  * debian/rules:
+    - Updated override_dh_auto_install to remove all installed and empty
+      directories.
+
+ -- Ignace Mouzannar <mouzannar@gmail.com>  Sat, 23 Jul 2016 23:46:46 -0400
+
 tsung (1.5.1-1) unstable; urgency=low
 
   * New upstream release. (Closes: #691354, #695284, #728124, #719234)

@@ -31,4 +31,4 @@ override_dh_auto_build:
 
 override_dh_auto_install:
 	dh_auto_install
-	find $(CURDIR)/debian/tsung/usr/lib/erlang/lib/ -type d -empty -delete
+	find $(CURDIR)/debian/tsung/usr/lib -type d -empty -delete

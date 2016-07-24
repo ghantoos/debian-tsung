@@ -3,7 +3,7 @@ Section: net
 Priority: optional
 Maintainer: Ignace Mouzannar <mouzannar@gmail.com>
 Build-Depends: autotools-dev,
- debhelper (>= 7.0.50~),
+ debhelper (>= 9),
  docbook-utils,
  erlang-dev (>= 1:13.b.1-dfsg-3),
  erlang-nox,
@@ -12,7 +12,7 @@ Build-Depends: autotools-dev,
  dh-python,
  python-sphinx
 Homepage: http://tsung.erlang-projects.org/
-Standards-Version: 3.9.5
+Standards-Version: 3.9.8
 
 Package: tsung
 Architecture: any

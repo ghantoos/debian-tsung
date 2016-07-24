@@ -7,30 +7,9 @@ Files: *
 Copyright:
     2004-2010, Nicolas Niclausse <nicolas.niclausse@niclux.org>
 License: GPL-2+
- This program is free software; you can redistribute it
- and/or modify it under the terms of the GNU General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later
- version.
- .
- This program is distributed in the hope that it will be
- useful, but WITHOUT ANY WARRANTY; without even the implied
- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
- PURPOSE.  See the GNU General Public License for more
- details.
- .
- You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
- .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
 
 Files:
     include/ts_http.hrl
-    include/rrdtool.hrl
     include/ts_raw.hrl
     include/ts_config.hrl
     include/ts_profile.hrl
@@ -68,77 +47,25 @@ Files:
 Copyright:
     2000-2005, IDEALX S.A.S
 License: GPL-2+
- This program is free software; you can redistribute it
- and/or modify it under the terms of the GNU General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later
- version.
- .
- This program is distributed in the hope that it will be
- useful, but WITHOUT ANY WARRANTY; without even the implied
- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
- PURPOSE.  See the GNU General Public License for more
- details.
- .
- You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
- .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
 
 Files:
     src/lib/mochinum.erl
     src/lib/mochiweb_charref.erl
     src/lib/mochiweb_html.erl
     src/lib/mochijson2.erl
+    src/lib/mochiutf8.erl
+    src/lib/mochiweb_html.erl
+    src/lib/mochiweb_util.erl
+    src/lib/mochiweb_headers.erl
 Copyright:
     2007, Mochi Media Inc.
 License: MIT
- Permission is hereby granted, free of charge, to any person
- obtaining a copy of this software and associated documentation
- files (the "Software"), to deal in the Software without
- restriction, including without limitation the rights to use,
- copy, modify, merge, publish, distribute, sublicense, and/or
- sell copies of the Software, and to permit persons to whom the
- Software is furnished to do so, subject to the following conditions:
- .
- The above copyright notice and this permission notice shall be included
- in all copies or substantial portions of the Software.
- .
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- DEALINGS IN THE SOFTWARE.
 
 Files:
     src/lib/uuid.erl
 Copyright:
     2008, Andrew Kreiling <akreiling@pobox.com>
 License: MIT
- Permission is hereby granted, free of charge, to any person
- obtaining a copy of this software and associated documentation
- files (the "Software"), to deal in the Software without
- restriction, including without limitation the rights to use,
- copy, modify, merge, publish, distribute, sublicense, and/or
- sell copies of the Software, and to permit persons to whom the
- Software is furnished to do so, subject to the following conditions:
- .
- The above copyright notice and this permission notice shall be included
- in all copies or substantial portions of the Software.
- .
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
- THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
- DEALINGS IN THE SOFTWARE.
 
 Files:
     include/ts_fs.hrl
@@ -148,26 +75,6 @@ Files:
 Copyright:
     2009, INRIA
 License: GPL-2+
- This program is free software; you can redistribute it
- and/or modify it under the terms of the GNU General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later
- version.
- .
- This program is distributed in the hope that it will be
- useful, but WITHOUT ANY WARRANTY; without even the implied
- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
- PURPOSE.  See the GNU General Public License for more
- details.
- .
- You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
- .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
 
 Files:
     include/ts_ldap.hrl
@@ -175,26 +82,6 @@ Files:
 Copyright:
     2008, Pablo Polvorin <pablo.polvorin@process-one.net>
 License: GPL-2+
- This program is free software; you can redistribute it
- and/or modify it under the terms of the GNU General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later
- version.
- .
- This program is distributed in the hope that it will be
- useful, but WITHOUT ANY WARRANTY; without even the implied
- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
- PURPOSE.  See the GNU General Public License for more
- details.
- .
- You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
- .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
 
 Files:
     src/tsung-rrd.pl.in
@@ -202,52 +89,12 @@ Copyright:
     2009, Rodolphe Quiédeville <rodolphe@quiedeville.org>
     2009, Bearstech <http://www.bearstech.com/>
 License: GPL-2+
- This program is free software; you can redistribute it
- and/or modify it under the terms of the GNU General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later
- version.
- .
- This program is distributed in the hope that it will be
- useful, but WITHOUT ANY WARRANTY; without even the implied
- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
- PURPOSE.  See the GNU General Public License for more
- details.
- .
- You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
- .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
 
 Files:
     src/tsung_controller/ts_os_mon.erl
 Copyright:
     2003, Mickael Remond <mickael.remond@erlang-fr.org>
 License: GPL-2+
- This program is free software; you can redistribute it
- and/or modify it under the terms of the GNU General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later
- version.
- .
- This program is distributed in the hope that it will be
- useful, but WITHOUT ANY WARRANTY; without even the implied
- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
- PURPOSE.  See the GNU General Public License for more
- details.
- .
- You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
- .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
 
 Files:
     src/tsung-plotter/tsplot.py.in
@@ -256,30 +103,80 @@ Copyright:
     2006, Dalibo <http://dalibo.com>
     2007, Dimitri Fontaine <dim@tapoueh.org>
 License: GPL-2+
- This program is free software; you can redistribute it
- and/or modify it under the terms of the GNU General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later
- version.
- .
- This program is distributed in the hope that it will be
- useful, but WITHOUT ANY WARRANTY; without even the implied
- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
- PURPOSE.  See the GNU General Public License for more
- details.
- .
- You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
- .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
 
 Files: debian/*
 Copyright:
     2011, Ignace Mouzannar <mouzannar@gmail.com>
+License: GPL-2+
+
+Files:
+    src/templates/style/dygraph-combined.js
+    debian/missing-sources/dygraph-combined.js
+Copyright:
+    2011, Dan Vanderkam <danvdk@gmail.com>
+License: MIT
+
+Files:
+    src/tsung_percentile.pl.in
+Copyright:
+    2013, Rodolphe Quiédeville <rodolphe@quiedeville.org>
+License: GPL-2+
+
+Files:
+    src/templates/style/bootstrap.min.js
+    src/templates/style/bootstrap.min.css
+    src/templates/style/docs.min.css
+Copyright:
+    2011-2014, Twitter, Inc.
+License: MIT
+
+Files:
+    src/tsung_controller/ts_config_amqp.erl
+    src/tsung_controller/ts_config_websocket.erl
+    src/tsung_controller/ts_config_mqtt.erl
+    src/lib/websocket.erl
+    src/test/ts_test_mqtt.erl
+    src/test/ts_test_websocket.erl
+    src/tsung/ts_mqtt.erl
+    src/tsung/ts_amqp.erl
+    src/tsung/ts_websocket.erl
+    include/ts_mqtt.hrl
+    include/ts_websocket.hrl
+    include/ts_amqp.hrl
+Copyright:
+    2013,  Zhihui Jiao <jzhihui521@gmail.com>
+License: GPL-2+
+
+Files:
+    src/lib/rabbit_binary_generator.erl
+    src/lib/rabbit_binary_parser.erl
+    src/lib/rabbit_command_assembler.erl
+    src/lib/rabbit_framing_amqp_0_9_1.erl
+    include/rabbit.hrl
+    include/rabbit_framing.hrl
+Copyright:
+    2007-2012 VMware, Inc.
+License: MPL-1.1
+
+Files:
+    src/lib/oauth_uri.erl
+    src/lib/oauth_hmac_sha1.erl
+    src/lib/oauth.erl
+    src/lib/oauth_plaintext.erl
+    src/lib/oauth_unix.erl
+    src/lib/oauth_http.erl
+    src/lib/oauth_rsa_sha1.erl
+Copyright:
+    2008-2009, Tim Fletcher <http://tfletcher.com/>
+License: MIT
+
+Files:
+    src/lib/mqtt_frame.erl
+    include/mqtt.hrl
+Copyright:
+    2013, Matthew Wood <hellomatty@gmail.com>
+License: MIT
+
 License: GPL-2+
  This program is free software; you can redistribute it
  and/or modify it under the terms of the GNU General Public
@@ -302,11 +199,6 @@ License: GPL-2+
  License version 2 can be found in the file
  `/usr/share/common-licenses/GPL-2'.
 
-Files:
-    src/templates/dygraph-combined.js
-    debian/missing-sources/dygraph-combined.js
-Copyright:
-    2011, Dan Vanderkam <danvdk@gmail.com>
 License: MIT
  Permission is hereby granted, free of charge, to any person
  obtaining a copy of this software and associated documentation
@@ -327,28 +219,13 @@ License: MIT
  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  DEALINGS IN THE SOFTWARE.
 
-Files:
-    src/tsung_percentile.pl.in
-Copyright:
-    2013, Rodolphe Quiédeville <rodolphe@quiedeville.org>
-License: GPL-2+
- This program is free software; you can redistribute it
- and/or modify it under the terms of the GNU General Public
- License as published by the Free Software Foundation; either
- version 2 of the License, or (at your option) any later
- version.
+License: MPL-1.1
+ The contents of this file are subject to the Mozilla Public License
+ Version 1.1 (the "License"); you may not use this file except in
+ compliance with the License. You may obtain a copy of the License at
+ https://www.mozilla.org/MPL/
  .
- This program is distributed in the hope that it will be
- useful, but WITHOUT ANY WARRANTY; without even the implied
- warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
- PURPOSE.  See the GNU General Public License for more
- details.
- .
- You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
- .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
+ Software distributed under the License is distributed on an "AS IS"
+ basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
+ License for the specific language governing rights and limitations
+ under the License.
