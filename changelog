@@ -1,3 +1,12 @@
+tsung (1.7.0-3) unstable; urgency=medium
+
+  * debian/patches:
+    - 03_correct_lib_path.diff: Fix relative path to 
+      `/usr/lib/$(DEB_HOST_MULTIARCH)/tsung/bin`
+      (Closes: #873678) (LP: #1634143)
+
+ -- Ignace Mouzannar <mouzannar@gmail.com>  Thu, 16 Nov 2017 00:55:06 -0500
+
 tsung (1.7.0-2) unstable; urgency=medium
 
   * debian/patches:
