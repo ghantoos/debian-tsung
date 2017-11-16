@@ -1,0 +1,18 @@
+Description:
+  - Fix relative path to `/usr/lib/$(DEB_HOST_MULTIARCH)/tsung/bin`
+Author: Ignace Mouzannar <mouzannar@gmail.com>
+Last-Update: 2017-11-15
+
+Index: tsung-1.7.0/src/tsung_controller/ts_web.erl
+===================================================================
+--- tsung-1.7.0.orig/src/tsung_controller/ts_web.erl
++++ tsung-1.7.0/src/tsung_controller/ts_web.erl
+@@ -99,7 +99,7 @@ error(SessionID, _Env, _Input, Msg) ->
+ 
+ script_paths()->
+     {ok,Path} = application:get_env(tsung_controller,log_dir_real),
+-    UserPath = filename:join(Path,"../../../lib/tsung/bin"),
++    UserPath = filename:join(Path,"../../../tsung/bin"),
+     ts_utils:join(":",[UserPath,"/usr/lib64/tsung/bin/","/usr/lib/tsung/bin","/usr/local/lib/tsung/bin"]).
+ 
+ update_reports() ->
