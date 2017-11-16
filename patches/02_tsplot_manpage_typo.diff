@@ -1,0 +1,27 @@
+Description:
+  - Fix minor typos
+Author: Ignace Mouzannar <mouzannar@gmail.com>
+Last-Update: 2017-11-15
+
+Index: tsung-1.7.0/man/tsplot.1
+===================================================================
+--- tsung-1.7.0.orig/man/tsplot.1
++++ tsung-1.7.0/man/tsplot.1
+@@ -11,7 +11,7 @@ Tsung comes with a plotting tool using
+ \fBgnuplot\fR, producing some graphs from the
+ \fItsung.log\fR file data.
+ \fBtsplot\fR is able to plot data from several
+-\fItsung.log\fR files onto the same charts serie,
++\fItsung.log\fR files onto the same charts series,
+ for further comparison and analyze.
+ .SH "OPTIONS"
+ .PP
+@@ -172,7 +172,7 @@ on command line.
+ Each plot on a chart has a legend entry, you configure
+ here the meaning of the plot (say 'concurrent users') and
+ \fBtsplot\fR will add it the name of the data
+-serie being plotted (say 'scenario x'). You'd obtain this
++series being plotted (say 'scenario x'). You'd obtain this
+ legend: 'concurrent users scenario x'.
+ .TP
+ \fBylabel\fR

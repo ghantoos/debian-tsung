@@ -177,6 +177,12 @@ Copyright:
     2013, Matthew Wood <hellomatty@gmail.com>
 License: MIT
 
+Files:
+    src/tsung/ts_server_websocket_ssl.erl
+Copyright:
+    Eric Cestari <ecestari@mac.com>
+License: GPL-2+
+
 License: GPL-2+
  This program is free software; you can redistribute it
  and/or modify it under the terms of the GNU General Public

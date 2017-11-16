@@ -1,0 +1,1 @@
+tsung source: debian-watch-uses-insecure-uri http://tsung.erlang-projects.org/dist/tsung-(.*)\.tar\.gz

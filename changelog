@@ -1,3 +1,27 @@
+tsung (1.7.0-2) unstable; urgency=medium
+
+  * debian/patches:
+    - 01_correct_share_path.diff: Fix relative path to `/usr/share/tsung`.
+      (Closes: #873678) (LP: #1634143)
+    - 02_tsplot_manpage_typo.diff: Fix minor typos.
+
+ -- Ignace Mouzannar <mouzannar@gmail.com>  Thu, 16 Nov 2017 00:20:00 -0500
+
+tsung (1.7.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    - Bumped Standards-Version to 4.1.1.
+    - Update python-sphinx dependency to python3-sphinx.
+    - Remove ${erlang-abi:Depends} unused dependency, covered 
+      by ${erlang:Depends}
+  * debian/tsung.lintian-overrides:
+    - Added file to ignore some expected lintian warnings.
+  * debian/copyright:
+    - Add mention to new file src/tsung/ts_server_websocket_ssl.erl
+
+ -- Ignace Mouzannar <mouzannar@gmail.com>  Wed, 15 Nov 2017 23:06:34 -0500
+
 tsung (1.6.0-1) unstable; urgency=medium
 
   * New upstream release.
