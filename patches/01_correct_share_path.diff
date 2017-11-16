@@ -1,0 +1,17 @@
+Description:
+  - Fix relative path to `/usr/share/tsung`
+Author: Ignace Mouzannar <mouzannar@gmail.com>
+Last-Update: 2017-11-15
+
+Index: tsung-1.7.0/src/tsung_controller/ts_controller_sup.erl
+===================================================================
+--- tsung-1.7.0.orig/src/tsung_controller/ts_controller_sup.erl
++++ tsung-1.7.0/src/tsung_controller/ts_controller_sup.erl
+@@ -144,6 +144,6 @@ start_inets(LogDir,Redirect) ->
+ template_path() ->
+     case ?config(template_path) of
+         beam_relative ->
+-            filename:join(filename:dirname(code:which(tsung_controller)),"../../../../share/tsung/templates");
++            filename:join(filename:dirname(code:which(tsung_controller)),"/usr/share/tsung/templates");
+         Other -> Other
+     end.
